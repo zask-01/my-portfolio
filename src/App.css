@@ -18,7 +18,7 @@ p {
     --heading-color: #282938;
     --bg-shade: #f5fcff;
     --github: #e62872;
-    -darkblue: #1c1e53;
+    --darkblue: #1c1e53;
     --blck: #000;
     --white: #fff;
 }
@@ -74,3 +74,128 @@ p {
 }
 
 /* Ends Of Global Section Ends */
+/* Main Heading */
+h1
+{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 58px;
+}
+h2
+{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+}
+h3
+{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+}
+/* Body */
+.text-lg
+{
+    color: var(--darkblue);
+    font-size: 18px;
+    font-style: normal !important;
+    font-weight: 400;
+    line-height: 27px;
+}
+.text-md
+{
+    color: var(--darkblue);
+    font-size: 16px;
+    font-style: normal !important;
+    font-weight: 400;
+    line-height: 24px;
+}
+.text-sm
+{
+    color: var(--blck);
+    font-size: 14px;
+    font-style: normal !important;
+    font-weight: 400;
+    line-height: 21px;
+}
+/* Section Title */
+/* Skill & About me */
+.section--title
+{
+    color: var(--heading-color);
+    font-size: 21px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    display: flex;
+    /* align-items: center ; */
+    align-items: flex-start;
+}
+/* Portfolio, Testimpnal & Contact */
+.sub--title
+{
+    color: var(--heading-color);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+/* Section Titles ends */
+
+/* Hero Section Style */
+.hero--section
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 133.333px 85.333px 133.333px;
+    align-items: ceter;
+    justify-content: space-between;
+    gap: 32;
+    background-color: var(--bg-shade);
+}
+.hero--section--content--box
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+}
+.hero--section--content
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 21.333px;
+}
+.hero--section--content--box > button
+{
+    margin: 21.333px;
+}
+.hero--section--title
+{
+    color: var(--heading-color);
+    font-size: 74.667px;
+    font-weight: 700;
+    line-height: 90px;
+    align-self: stretch;
+}
+.hero--section--color
+{
+    color: var(--primary);
+}
+.hero--section--description
+{
+    color: var(--darkblue);
+    font-size: 24px;
+    font-weight: 400px;
+    line-height: 36px;
+}
+.hero--section--img
+{
+    display: flex;
+}
+.hero--section--img > img
+{
+    width: 100%;
+    height: 100%;
+}

@@ -40,7 +40,7 @@ p {
 {
     color: var(--primary);
     background-color: var(--white);
-    border: 1px dolid var(--promary);
+    border: 1px solid var(--darkblue);
 }
 .btn-outline-primary:hover{
     color: var(--white);
@@ -142,6 +142,45 @@ h3
 }
 /* Section Titles ends */
 
+/* Navbar Style Css */
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 85.333px;
+    background: var(--white);
+    box-shadow: 0px 5.333px 88px 0px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.navbar--items > ul {
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+    gap: 42.667px;
+    text-decoration: none;
+}
+.navbar--items ul > li > a {
+    text-decoration: none !important;
+}
+/* Navbar Conten */
+.navbar--content
+{
+    color: var(--darkblue);
+    font-size: 16px;
+    font-style: normal !important;
+    font-weight: 400;
+    line-height: 24px !important;
+    cursor: pointer;
+}
+.navbar---active--content
+{
+    color: var(--primary);
+}
+
 /* Hero Section Style */
 .hero--section
 {
@@ -199,3 +238,4 @@ h3
     width: 100%;
     height: 100%;
 }
+/* Hero Section Ends */
